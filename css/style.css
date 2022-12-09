@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: futura;
+    box-sizing: border-box;
+
+}
+
+.customNav{
+    position: fixed;
+  width: 100%;
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.nav-item {
+    margin: 0px 15px;
+  }
+
+  .dropdown-menu {
+    background-color: transparent !important;
+    background-size: cover;
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }  
+
+  .dropdown-menu {
+    left: -97px;
+  }
+
+.btn {
+    background-color: #E30613;
+}
+
+.jumbotron {
+    background-image: url(../images/elgraphicacover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 35px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .jumboCopy {
+    margin-top: 100px;
+    margin-left: 100px;
+  }

@@ -19,7 +19,7 @@
 
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-        <a class="navbar-brand" href="#">Portfolio</a>
+        <a class="navbar-brand" href="#">Port<span>folio</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,13 +30,13 @@
               <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#">Work</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">More</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Work</a>
+                <a class="dropdown-item" href="#">About Me</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Skills</a>
                 <div class="dropdown-divider"></div>
@@ -52,13 +52,17 @@
 
 
       <!--Jumbotron-->
-      <div class="jumbotron rockBackground">
+      <div class="jumbotron brandBackground">
         <div class="jumboCopy">
           <h1 class="display-4">Lorand Ferenczi</h1>
           <p class="lead">Web Designer & Developer</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">Subscribe</a>
+          <div class="newsletter">
+            <form>
+              <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+              <input type="submit" name="submit" value="Subscribe">
         </div>
-      </div>
+            </form>
+          
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

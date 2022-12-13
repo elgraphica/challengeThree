@@ -6,6 +6,17 @@
 
 }
 
+.navbar-brand {
+  font-size: 42px;
+  letter-spacing: 2px;
+  color: #a0a0a0 !important;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  margin-left: 115px;
+}
+span {
+  color: #E30613;
+}
+
 .customNav{
     position: fixed;
   width: 100%;
@@ -29,24 +40,20 @@
   }
 
   .dropdown-item:focus, .dropdown-item:hover {
-      color: #16181b;
+      color: #bdbaba;
       text-decoration: none;
-      background: black;
+      background: #E30613;
   }  
 
   .dropdown-menu {
     left: -97px;
   }
 
-.btn {
-    background-color: #E30613;
-}
-
 .jumbotron {
     background-image: url(../images/elgraphicacover.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 35px);
+    height: calc(100vh - 70px);
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -56,3 +63,51 @@
     margin-top: 100px;
     margin-left: 100px;
   }
+
+  .newsletter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .newsletter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #E30613;
+    outline: none;
+    border-radius: 30px;
+  }
+
+  .newsletter form input:last-child {
+    background-color: #E30613;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #bdbaba;
+    top: 6px;
+    right: 6px;
+}
+.newsletter form input:last-child:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #E30613;
+}
+
+.btn {
+  background-color: #E30613;
+    outline: none;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #bdbaba;
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #E30613;
+}

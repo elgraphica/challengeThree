@@ -127,7 +127,6 @@ span {
 
 .card {
   margin: 0 auto;
-  height: ;
 }
 
 .content {
@@ -146,3 +145,105 @@ span {
   text-align: center;
 }
 
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.about img {
+  height: auto;
+  width: 1000px;
+}
+
+.about-text {
+  width: 600px;
+}
+
+.main {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.about-text h2 {
+  color: #E30613;
+  font-size: 72px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.about-text h5 {
+  color: #E30613;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.about-text p {
+  color: #bdbaba;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-top: 42px;
+}
+
+.sectionHeading {
+  color: #E30613;
+  font-size: 72px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.col-8 h3 {
+  color: #E30613;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.col-8 p {
+  color: #bdbaba;
+  letter-spacing: 2px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-top: 42px;
+}
+
+.valueProp {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.sideAccent {
+  background: #E30613;
+  width: 15px;
+  border-radius: 30px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.contact h3 {
+  color: #E30613;
+  letter-spacing: 2px;
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+}

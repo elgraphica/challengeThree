@@ -6,6 +6,10 @@
 
 }
 
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .navbar-brand {
   font-size: 42px;
   letter-spacing: 2px;
@@ -18,7 +22,7 @@ span {
 }
 
 .customNav{
-    position: fixed;
+  position: absolute;
   width: 100%;
   background-color: transparent !important;
   background-size: cover;
@@ -111,3 +115,34 @@ span {
   background-color: rgba(0, 0, 0, 0.7);
   color: #E30613;
 }
+
+.container-fluid{
+  background-image: url(../images/elgraphicacover.png);
+  height: calc(100vh - 70px);
+}
+
+.cardContainer {
+  margin-top: 20px;
+}
+
+.card {
+  margin: 0 auto;
+  height: ;
+}
+
+.content {
+  padding: 50px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.myWork {
+  padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
